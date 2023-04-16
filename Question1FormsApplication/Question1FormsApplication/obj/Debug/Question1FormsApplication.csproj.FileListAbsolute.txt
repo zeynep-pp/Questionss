@@ -8,3 +8,15 @@ c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\
 c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.csproj.GenerateResource.Cache
 c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.exe
 c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.pdb
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\bin\Debug\Question1FormsApplication.exe.config
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\bin\Debug\Question1FormsApplication.exe
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\bin\Debug\Question1FormsApplication.pdb
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.csproj.AssemblyReference.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.Form1.resources
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.Form2.resources
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.Properties.Resources.resources
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.csproj.GenerateResource.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.csproj.CoreCompileInputs.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.exe
+C:\Users\zeyne\OneDrive\Desktop\question1\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.pdb

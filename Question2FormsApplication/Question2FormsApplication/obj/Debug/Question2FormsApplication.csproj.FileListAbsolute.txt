@@ -1,0 +1,20 @@
+c:\users\200762\documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\bin\Debug\Question2FormsApplication.exe.config
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.csprojResolveAssemblyReference.cache
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.Form1.resources
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.Properties.Resources.resources
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.csproj.GenerateResource.Cache
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\bin\Debug\Question2FormsApplication.exe
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\bin\Debug\Question2FormsApplication.pdb
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.exe
+C:\Users\200762\Documents\visual studio 2015\Projects\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.pdb
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\bin\Debug\Question2FormsApplication.exe.config
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\bin\Debug\Question2FormsApplication.exe
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\bin\Debug\Question2FormsApplication.pdb
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.csproj.AssemblyReference.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.csproj.SuggestedBindingRedirects.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.Form1.resources
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.Properties.Resources.resources
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.csproj.GenerateResource.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.csproj.CoreCompileInputs.cache
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.exe
+C:\Users\zeyne\OneDrive\Desktop\question1\Question2FormsApplication\Question2FormsApplication\obj\Debug\Question2FormsApplication.pdb
