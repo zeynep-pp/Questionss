@@ -66,7 +66,7 @@
             // 
             this.labelObjects.AutoSize = true;
             this.labelObjects.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelObjects.Location = new System.Drawing.Point(4, 25);
+            this.labelObjects.Location = new System.Drawing.Point(32, 190);
             this.labelObjects.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelObjects.Name = "labelObjects";
             this.labelObjects.Size = new System.Drawing.Size(99, 29);
@@ -104,7 +104,7 @@
             this.buttonTake.Name = "buttonTake";
             this.buttonTake.Size = new System.Drawing.Size(156, 59);
             this.buttonTake.TabIndex = 5;
-            this.buttonTake.Text = "Topla";
+            this.buttonTake.Text = "Game";
             this.buttonTake.UseVisualStyleBackColor = false;
             this.buttonTake.Click += new System.EventHandler(this.buttonTake_Click);
             // 
@@ -112,7 +112,7 @@
             // 
             this.numericUpDownTake.BackColor = System.Drawing.Color.LightSeaGreen;
             this.numericUpDownTake.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.numericUpDownTake.Location = new System.Drawing.Point(440, 386);
+            this.numericUpDownTake.Location = new System.Drawing.Point(672, 371);
             this.numericUpDownTake.Margin = new System.Windows.Forms.Padding(4);
             this.numericUpDownTake.Name = "numericUpDownTake";
             this.numericUpDownTake.Size = new System.Drawing.Size(87, 36);
@@ -122,17 +122,18 @@
             // 
             this.labelTurn.AutoSize = true;
             this.labelTurn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelTurn.Location = new System.Drawing.Point(440, 235);
+            this.labelTurn.Location = new System.Drawing.Point(32, 229);
             this.labelTurn.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelTurn.Name = "labelTurn";
-            this.labelTurn.Size = new System.Drawing.Size(81, 29);
+            this.labelTurn.Size = new System.Drawing.Size(77, 29);
             this.labelTurn.TabIndex = 7;
-            this.labelTurn.Text = "label1";
+            this.labelTurn.Text = "Turns";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Thistle;
             this.ClientSize = new System.Drawing.Size(1220, 634);
             this.Controls.Add(this.labelTurn);
             this.Controls.Add(this.numericUpDownTake);

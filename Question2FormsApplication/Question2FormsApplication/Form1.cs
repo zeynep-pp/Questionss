@@ -104,10 +104,12 @@ namespace Question2FormsApplication
                 if (playerTurn == 1)
                 {
                     winnerName = player2Name;
+                    MessageBox.Show(player1Name + " wins!", "Game Over");
                 }
                 else
                 {
                     winnerName = player1Name;
+                    MessageBox.Show(player2Name + " wins!", "Game Over");
                 }
 
                 //Oyunu yeniden başlatıyoruz.
@@ -128,78 +130,10 @@ namespace Question2FormsApplication
             {
                 playerTurn = 1;
             }
-/*
 
-            //Eğer sıra bilgisayarın ise
-            if (playerTurn == 1)
-            {
-                //Bilgisayarın hamlesini yapması için biraz bekliyoruz.
-                System.Threading.Thread.Sleep(1000);
 
-                // Bilgisayarın nesne seçim stratejisi: 
-                // - Eğer nesne sayısı 3 veya daha azsa, tüm nesneleri alır.
-                // - Eğer nesne sayısı 4 veya daha fazlaysa, kalan nesne sayısının 3'e bölümünden kalan sayı kadar nesne alır.
-                int objectsToTake;
-                if (objectCount <= 3)
-                {
-                    objectsToTake = objectCount;
-                }
-                else
-                {
-                    objectsToTake = objectCount % 3;
-                    if (objectsToTake == 0)
-                    {
-                        objectsToTake = 2;
-                    }
-                }
-
-                // Bilgisayarın seçtiği nesneleri ekranda görünmez yapıyoruz
-                
-                for (int i = 1; i <= objectsToTake; i++)
-                {
-                    PictureBox obj = this.Controls.Find("pictureBox" + i.ToString(), true).FirstOrDefault() as PictureBox;
-                    obj.Image = Properties.Resources.fruit_taken;
-                    obj.Visible = false; // Nesne alındığı için görünmez yapıyoruz
-                    objectCount--;
-                }
-
-                // Bilgisayarın puanını güncelliyoruz
-                int currentScore = int.Parse(labelPlayer1Score.Text);
-                labelPlayer1Score.Text = (currentScore + objectsToTake).ToString();
-
-                // Nesne sayısını ekrana yazdırıyoruz
-                labelObjects.Text = objectCount.ToString();*/
-
-                // Oyunun bitip bitmediğini kontrol ediyoruz
-                if (objectCount == 0)
-                {
-                    // Kazananı mesaj kutusunda gösteriyoruz
-                    MessageBox.Show(player2Name + " wins!", "Game Over");
-
-                    // Oyunu yeniden başlatıyoruz
-                    objectCount = 10;
-                    labelObjects.Text = objectCount.ToString();
-                    labelPlayer1Score.Text = "0";
-                    labelPlayer2Score.Text = "0";
-                    playerTurn = 1;
-
-                    // Tüm nesneleri yeniden görünür hale getir
-                    for (int i = 1; i <= objectCount; i++)
-                    {
-                        PictureBox obj = this.Controls.Find("pictureBox" + i.ToString(), true).FirstOrDefault() as PictureBox;
-                        obj.Image = Properties.Resources.fruit_taken;
-                        obj.Visible = true;
-                    }
-                    return;
-                }
-
-                // Sırayı diğer oyuncuya geçiriyoruz
-                playerTurn = 2;
-            }
-
-            // Sıranın kimde olduğunu ekranda gösteriyoruz
-            //
-            //labelTurn.Text = "Turn: " + ((playerTurn == 1) ? player1Name : player2Name);
+            // Sıranın kimde olduğunu ekranda gösteriyoruz*/
+            labelTurn.Text = "Turn: " + ((playerTurn == 1) ? player1Name : player2Name);
 
 
         }
@@ -207,58 +141,59 @@ namespace Question2FormsApplication
 
     
 
-        private void ComputerTurn()
+    private void ComputerTurn()
+    {
+        int selectedCount = 0;
+        // Bilgisayarın hamlesi
+        // Rastgele 1 veya 2 nesne alacak şekilde ayarlıyoruz.
+        Random rnd = new Random();
+        selectedCount = rnd.Next(1, 3);
+
+        //Seçilen nesne sayısı, toplan nesne sayısında büyük olamaz.
+        if (selectedCount > objectCount)
         {
-            int selectedCount = 0;
-            // Bilgisayarın hamlesi
-            // Rastgele 1 veya 2 nesne alacak şekilde ayarlıyoruz.
-            Random rnd = new Random();
-            selectedCount = rnd.Next(1, 3);
-
-            //Seçilen nesne sayısı, toplan nesne sayısında büyük olamaz.
-            if (selectedCount > objectCount)
-            {
-                selectedCount = objectCount;
-            }
-
-            //Seçilen nesne sayısını toplam nesne sayısından çıkarıyoruz.
-            for (int i = objectCount; i > objectCount - selectedCount; i--)
-            {
-                PictureBox obj = this.Controls.Find("pictureBox" + i.ToString(), true).FirstOrDefault() as PictureBox;
-                if (obj != null)
-                {
-                    obj.Image = Properties.Resources.fruit_taken;
-                    obj.Visible = false; // Nesne alındığı için görünmez yapıyoruz
-                }
-            }
-
-            //Seçilen nesne sayısını toplam nesne sayısından çıkarıyoruz.
-            objectCount = objectCount - selectedCount;
-
-            //Seçilen nesne sayısına göre, bilgisayarın puanını artırıyoruz.
-            int currentScore = int.Parse(labelPlayer1Score.Text);
-            labelPlayer1Score.Text = (currentScore + selectedCount).ToString();
-
-            //Nesne sayısını ekrana yazdırıyoruz.
-            labelObjects.Text = objectCount.ToString();
-
-            //Oyunun bitip bitmediğini kontrol ediyoruz.
-            if (objectCount == 0)
-            {
-                //Kazananı mesaj kutusunda gösteriyoruz.
-                string winnerName = player1Name;
-
-                //Oyunu yeniden başlatıyoruz.
-                labelObjects.Text = objectCount.ToString();
-                labelPlayer1Score.Text = "0";
-                labelPlayer2Score.Text = "0";
-                playerTurn = 1;
-                return;
-            }
-
-            //Sırayı diğer oyuncuya geçiriyoruz.
-            playerTurn = 2;
+            selectedCount = objectCount;
         }
+
+        //Seçilen nesne sayısını toplam nesne sayısından çıkarıyoruz.
+        for (int i = objectCount; i > objectCount - selectedCount; i--)
+        {
+            PictureBox obj = this.Controls.Find("pictureBox" + i.ToString(), true).FirstOrDefault() as PictureBox;
+            if (obj != null)
+            {
+                obj.Image = Properties.Resources.fruit_taken;
+                obj.Visible = false; // Nesne alındığı için görünmez yapıyoruz
+            }
+        }
+
+        //Seçilen nesne sayısını toplam nesne sayısından çıkarıyoruz.
+        objectCount = objectCount - selectedCount;
+
+        //Seçilen nesne sayısına göre, bilgisayarın puanını artırıyoruz.
+        int currentScore = int.Parse(labelPlayer1Score.Text);
+        labelPlayer1Score.Text = (currentScore + selectedCount).ToString();
+
+        //Nesne sayısını ekrana yazdırıyoruz.
+        labelObjects.Text = objectCount.ToString();
+
+        //Oyunun bitip bitmediğini kontrol ediyoruz.
+        if (objectCount == 0)
+        {
+            string winnerName = player1Name;
+            // Kazananı mesaj kutusunda gösteriyoruz
+            MessageBox.Show(player1Name + " wins!", "Game Over");
+
+            //Oyunu yeniden başlatıyoruz.
+            labelObjects.Text = objectCount.ToString();
+            labelPlayer1Score.Text = "0";
+            labelPlayer2Score.Text = "0";
+            playerTurn = 1;
+            return;
+        }
+
+        //Sırayı diğer oyuncuya geçiriyoruz.
+        playerTurn = 2;
+    }
 
 
 
