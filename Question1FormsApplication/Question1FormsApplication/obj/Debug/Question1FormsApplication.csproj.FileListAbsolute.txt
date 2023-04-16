@@ -1,0 +1,10 @@
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\bin\Debug\Question1FormsApplication.exe.config
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\bin\Debug\Question1FormsApplication.exe
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\bin\Debug\Question1FormsApplication.pdb
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.csprojResolveAssemblyReference.cache
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.Form1.resources
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.Form2.resources
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.Properties.Resources.resources
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.csproj.GenerateResource.Cache
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.exe
+c:\users\200762\documents\visual studio 2015\Projects\Question1FormsApplication\Question1FormsApplication\obj\Debug\Question1FormsApplication.pdb
