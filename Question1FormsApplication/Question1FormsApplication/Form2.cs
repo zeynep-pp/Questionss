@@ -32,6 +32,13 @@ namespace Question1FormsApplication
                                   "İl Trafik No: 56. \n" +
                                   "GEZİLECEK YERLER.\n" +
                                   "Cami ve Türbeler Ulu Cami: Çinili Minare olarak anılan Ulu Caminin minaresi, tipik Selçuklu mimarisini yansıtmaktadır.\n Siirt'te Veysel Karani Hz. Türbesi ve İbrahim Hakkı Hz. Türbesi bulunmaktadır.";
+
+                    PictureBox obj = this.Controls.Find("pictureBox1", true).FirstOrDefault() as PictureBox;
+                    if (obj != null)
+                    {
+                        obj.Image = Properties.Resources.siirt;
+                        obj.Visible = true; // Siirt resmi 
+                    }
                 }
                 else
                 {
